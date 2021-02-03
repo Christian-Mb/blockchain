@@ -1,0 +1,1 @@
+geth --identity "miner2" --networkid 4224 --mine --minerthreads 2 --datadir "miner2" --nodiscover --allow-insecure-unlock --rpc --rpcport "8546" --port "30304" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net,miner,admin --unlock 0 --password miner2/password.sec
